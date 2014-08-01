@@ -1,0 +1,24 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 18
+    buildToolsVersion '20.0.0'
+
+    defaultConfig {
+        applicationId "be.hcpl.android.so_10822397"
+        minSdkVersion 15
+        targetSdkVersion 18
+        versionCode 1
+        versionName "0.1.0"
+    }
+    buildTypes {
+        release {
+            runProguard true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}

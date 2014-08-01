@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SO-10822397</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="placeholder_label">placeholder label</string>
+    <string name="placeholder_timestamp">timestamp</string>
+
+</resources>
